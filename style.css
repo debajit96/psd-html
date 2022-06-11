@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.navbar-brand img {
+  width: 75%;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin: 0 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 50%;
+  }
+
+  .navbar-nav {
+    font-size: 0.7rem;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}
+
+/* Banner */
+.banner {
+  height: 620px;
+  width: 100%;
+  background-image: url("images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+  .banner {
+    height: 170px;
+  }
+}
+
+/* features */
+.features {
+  background-color: #f15412;
+}
+
+.features h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.main-p {
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-text {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.f-body {
+  background-color: #000;
+}
+
+.features h3 {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .features p {
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+  }
+}
+
+/* about */
+.about {
+  height: 890px;
+  width: 100%;
+  background-image: url("images/stats.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 992px) {
+  .about {
+    height: 300px;
+  }
+}
+
+/* newsletter */
+.newsletter {
+  background-color: #f15412;
+}
+
+.newsletter h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.newsletter p {
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.newsletter input {
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .newsletter p {
+    width: 95%;
+    margin: auto;
+    font-weight: 400;
+  }
+}
